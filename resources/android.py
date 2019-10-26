@@ -2,7 +2,7 @@ from collections import OrderedDict
 from os.path import dirname, realpath, join
 
 LIST__APPIUM_ARGS = [
-  'http://localhost:4723/wd/hub',
+    'http://localhost:4723/wd/hub',
 ]
 
 DICT__APPIUM_KWARGS = OrderedDict([
