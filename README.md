@@ -1,26 +1,23 @@
-# react-native-robot
+# React Native Robot
 
 A simple proof-of-concept demonstrating how to test a React Native
 application using Robot Framework.
 
-## Installation
+## Prerequisites
 
-[Node](https://nodejs.org/) and [Python](https://www.python.org/) are required.
+[Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and
+[Python](https://www.python.org/) are required before we can do anything else.
 Install those if you don't have them already.
 
-Install Appium Doctor:
+## Installation
 
-    yarn global add appium-doctor
-
-Run Appium Doctor:
-
-    appium-doctor
-
-View the diagnostics and fix any necessary dependencies if needed.
+### Appium
 
 Install [Appium](https://appium.io/) and other required dependencies defined in `package.json`:
 
     yarn
+
+### Robot Framework
 
 Set up a [Python virtual environment](https://docs.python.org/3/library/venv.html#module-venv):
 
@@ -54,3 +51,16 @@ Run the test suite:
 After you are done running tests, you can stop the Appium server:
 
     yarn stop-appium
+
+## Troubleshooting
+
+We can use Appium Doctor to verify that we have all the dependencies
+required by Appium installed and configured:
+
+    yarn global add appium-doctor
+
+Run Appium Doctor:
+
+    appium-doctor
+
+View the diagnostics and fix any necessary dependencies.

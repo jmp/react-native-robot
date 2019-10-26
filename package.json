@@ -9,6 +9,6 @@
   "scripts": {
     "start-appium": "appium-controller --start --logDir out",
     "stop-appium": "appium-controller --stop",
-    "test": "robot --outdir out tests"
+    "test": "robot --outputdir out --variablefile resources/android.py tests"
   }
 }
