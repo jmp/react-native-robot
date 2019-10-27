@@ -10,7 +10,7 @@ ${APPIUM_URL}   http://localhost:${APPIUM_PORT}/wd/hub
 Launch Application
     Open Application  ${APPIUM_URL}  &{APPIUM_CAPABILITIES}
     Wait Until Application Has Loaded
-    Capture Page Screenshot
 
 Wait Until Application Has Loaded
     Wait Until Page Contains  Welcome to React
+    Capture Page Screenshot

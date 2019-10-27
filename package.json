@@ -9,6 +9,7 @@
   "scripts": {
     "start-appium": "appium-controller --start --logDir reports",
     "stop-appium": "appium-controller --stop",
+    "lint": "rflint --recursive tests",
     "test": "robot --outputdir reports --variable TARGET:android tests"
   }
 }

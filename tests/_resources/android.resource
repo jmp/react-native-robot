@@ -5,4 +5,4 @@
 ...                     deviceName=Android Emulator
 ...                     appPackage=com.robot_test
 ...                     appActivity=MainActivity
-...                     app=${CURDIR}/../app/app.apk
+...                     app=${CURDIR}/../../app/app.apk
