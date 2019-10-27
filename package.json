@@ -7,8 +7,8 @@
     "appium-controller": "^1.1.6"
   },
   "scripts": {
-    "start-appium": "appium-controller --start --logDir out",
+    "start-appium": "appium-controller --start --logDir reports",
     "stop-appium": "appium-controller --stop",
-    "test": "robot --outputdir out --variablefile resources/android.py tests"
+    "test": "robot --outputdir reports --variable TARGET:android tests"
   }
 }
