@@ -1,5 +1,5 @@
 *** Variables ***
-&{APPIUM_CAPABILITIES}  automationName=appium
+&{APPIUM_CAPABILITIES}  automationName=Appium
 ...                     platformName=Android
 ...                     platformVersion=9.0
 ...                     deviceName=Android Emulator
