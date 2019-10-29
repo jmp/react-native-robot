@@ -3,13 +3,13 @@
 A simple proof-of-concept demonstrating how to test a React Native
 application using Robot Framework.
 
-## Prerequisites
+## Installation
+
+### Prerequisites
 
 [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and
 [Python](https://www.python.org/) are required before we can do anything else.
 Install those if you don't have them already.
-
-## Installation
 
 ### Appium
 
