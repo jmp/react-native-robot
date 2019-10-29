@@ -64,3 +64,8 @@ Run Appium Doctor:
     appium-doctor
 
 View the diagnostics and fix any necessary dependencies.
+
+## Useful links
+
+* [How to write good test cases using Robot Framework](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
+* [How To Test Android App Bundle](http://appium.io/docs/en/writing-running-appium/android/android-appbundle/)
