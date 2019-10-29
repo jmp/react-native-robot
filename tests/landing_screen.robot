@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   Landing screen tests
-Resource        ${CURDIR}/../resources/common.resource
+Resource        ${CURDIR}/../resources/common.robot
 
 *** Test Cases ***
 Opens Landing
