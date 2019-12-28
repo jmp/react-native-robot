@@ -49,6 +49,8 @@ Run the test suite:
 
     yarn test
 
+This will run the tests and produce the report, log, screenshots, etc. under `reports`.
+
 After you are done running tests, you can stop the Appium server:
 
     yarn stop-appium
