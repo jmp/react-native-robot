@@ -1,7 +1,7 @@
 {
   "name": "react-native-robot",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "appium": "^1.15.1",
     "appium-controller": "^1.1.6"
@@ -11,5 +11,9 @@
     "stop-appium": "appium-controller --stop",
     "lint": "rflint --recursive tests resources",
     "test": "robot --outputdir reports --variable TARGET:android tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmp/react-native-robot.git"
   }
 }
