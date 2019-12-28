@@ -1,7 +1,8 @@
 # React Native Robot
 
-A simple proof-of-concept demonstrating how to test a React Native
-application using Robot Framework.
+A simple proof-of-concept demonstrating how to test a
+[React Native](https://facebook.github.io/react-native/)
+application using [Robot Framework](https://robotframework.org/).
 
 ## Installation
 
@@ -54,7 +55,7 @@ After you are done running tests, you can stop the Appium server:
 
 ## Troubleshooting
 
-We can use Appium Doctor to verify that we have all the dependencies
+You can use [Appium Doctor](https://github.com/appium/appium-doctor) to verify that you have all the dependencies
 required by Appium installed and configured:
 
     yarn global add appium-doctor
@@ -68,4 +69,4 @@ View the diagnostics and fix any necessary dependencies.
 ## Useful links
 
 * [How to write good test cases using Robot Framework](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
-* [How To Test Android App Bundle](http://appium.io/docs/en/writing-running-appium/android/android-appbundle/)
+* [How to test Android app bundle](http://appium.io/docs/en/writing-running-appium/android/android-appbundle/)
