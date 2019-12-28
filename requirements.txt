@@ -1,2 +1,2 @@
-robotframework-appiumlibrary
-robotframework-lint
+robotframework-appiumlibrary==1.5.0.4
+robotframework-lint==1.0
