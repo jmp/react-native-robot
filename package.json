@@ -7,10 +7,10 @@
     "appium-controller": "^1.1.6"
   },
   "scripts": {
-    "start-appium": "appium-controller --start --logDir reports",
+    "start-appium": "appium-controller --start -l reports",
     "stop-appium": "appium-controller --stop",
-    "lint": "rflint --recursive tests resources",
-    "test": "robot --outputdir reports --variable TARGET:android tests"
+    "lint": "rflint -r tests resources",
+    "test": "robot -d reports -v TARGET:android tests"
   },
   "repository": {
     "type": "git",
