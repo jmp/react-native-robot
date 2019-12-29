@@ -81,5 +81,7 @@ View the diagnostics and fix any necessary dependencies.
 
 ## Useful links
 
+* [Robot Framework user guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
+* [Keyword documentation for robotframework-appiumlibrary](http://serhatbolsu.github.io/robotframework-appiumlibrary/AppiumLibrary.html)
 * [How to write good test cases using Robot Framework](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
 * [How to test Android app bundle](http://appium.io/docs/en/writing-running-appium/android/android-appbundle/)
