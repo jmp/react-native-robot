@@ -66,6 +66,29 @@ After you are done running tests, you can stop the Appium server:
 
     yarn stop-appium
 
+## How it works
+
+Here I will try to explain how everything in this project is tied together.
+
+The app we want to test is `app/app.apk`. This is just a simple demo app for Android,
+written in React Native. It just shows a scrollable welcome screen with some text.
+
+The actual *test suites*, written in Robot Framework syntax, can be found under `src/`. Since
+there can be many different test suites, some common functionality is extracted into
+*resource files*, found under the `resources/` directory.
+
+In the resource files, I have divided the resources so that different configurations can be
+written for different targets (e.g. Android, iOS). For example, for an Android app, we have
+to define the `.apk` or `.apks` file we want to run, whereas for iOS we would define an
+`.ipa` file. We can easily switch the target by providing the `TARGET` variable for the
+`robot` executable.
+
+Each test suite includes the `common.robot` resource file, which in turn includes the
+appropriate target resource file (e.g. `android.robot`) depending on the value of `TARGET`
+that was given when the tests were run.
+
+The tests will generate reports under the `reports/` directory.
+
 ## Troubleshooting
 
 You can use [Appium Doctor](https://github.com/appium/appium-doctor) to verify that you have all the dependencies
