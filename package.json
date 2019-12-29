@@ -6,6 +6,10 @@
     "appium": "^1.16.0",
     "appium-controller": "^1.1.6"
   },
+  "resolutions": {
+    "appium-controller/yargs": "^15.0.2",
+    "appium/**/debug": "^3.2.6"
+  },
   "scripts": {
     "start-appium": "appium-controller --start -l reports",
     "stop-appium": "appium-controller --stop",
