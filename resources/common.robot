@@ -1,6 +1,6 @@
 *** Settings ***
 Library           AppiumLibrary
-Resource          ${CURDIR}/targets/${TARGET}.robot
+Resource          ${CURDIR}/${TARGET}.robot
 
 *** Variables ***
 ${APPIUM_HOST}    http://localhost
