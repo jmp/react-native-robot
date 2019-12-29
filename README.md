@@ -1,6 +1,6 @@
 # React Native Robot
 
-A simple proof-of-concept demonstrating how to test a
+A simple proof-of-concept project demonstrating how to test a
 [React Native](https://facebook.github.io/react-native/)
 application using [Robot Framework](https://robotframework.org/)
 and [Appium](https://appium.io/) (via [robotframework-appiumlibrary](https://github.com/serhatbolsu/robotframework-appiumlibrary)).
